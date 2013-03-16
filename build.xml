@@ -9,13 +9,14 @@
                 <attribute name="Class-Path" value="."/>
             </manifest>
             <fileset dir="/home/luca/workspace/pretorian-register/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/luca/workspace/pretorian-register/lib/commons-io-2.4.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/luca/workspace/pretorian-register/lib/jmock-2.6.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/luca/Downloads/jmock-2.6.0/hamcrest-library-1.3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/luca/Downloads/jmock-2.6.0/hamcrest-core-1.3.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="/home/luca/dev/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar"/>
             <zipfileset excludes="META-INF/*.SF" src="/home/luca/dev/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
-            <zipfileset excludes="META-INF/*.SF" src="/home/luca/workspace/pretorian-register/lib/commons-io-2.4.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/luca/Downloads/mongo-2.10.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/luca/Downloads/javamail-1.4.7/mail.jar"/>
         </jar>
-    </target>
-	
-    <target name="run_jar">
-        <java jar="build/pretorian-register.jar" fork="true"/>
     </target>
 </project>
