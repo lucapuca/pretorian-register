@@ -1,6 +1,8 @@
 import static org.junit.Assert.assertEquals;
 
 import java.io.FileReader;
+import java.io.IOException;
+import java.util.List;
 
 import org.junit.Test;
 
@@ -8,13 +10,21 @@ public class DeliberationParserTest {
 
 	@Test
 	public void shouldParseDeliberations() throws Exception {
-		String page = webPageContent();
-		DeliberationParser deliberationParser = new DeliberationParser(page);
-		deliberationParser.parse();
+		final String page = webPageContent();
+		PretorianRegister register = new PretorianRegister(
+				"http://www.example.lup") {
+			@Override
+			public String download() throws IOException {
+				return page;
+			}
+		};
 
-		assertEquals(9, deliberationParser.size());
+		DeliberationParser deliberationParser = new DeliberationParser(register);
+		List<Deliberation> deliberations = deliberationParser.parse();
+
+		assertEquals(9, deliberations.size());
 		assertEquals("PARERE SUL PERMESSO DI COSTRUIRE IN VIA PERTICARI 23.",
-				deliberationParser.get(0).title());
+				deliberations.get(0).title());
 	}
 
 	private String webPageContent() throws Exception {

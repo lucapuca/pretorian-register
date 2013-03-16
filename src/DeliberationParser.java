@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -5,15 +6,17 @@ import java.util.regex.Pattern;
 
 public class DeliberationParser {
 
-	private String page;
-	private List<Deliberation> deliberations;
+	private PretorianRegister register;
 
-	public DeliberationParser(String page) {
-		this.page = page.replaceAll("\\r", "").replaceAll("\\n", "");
-		this.deliberations = new ArrayList<Deliberation>();
+	public DeliberationParser(PretorianRegister register) {
+		this.register = register;
 	}
 
-	public List<Deliberation> parse() {
+	public List<Deliberation> parse() throws IOException {
+		List<Deliberation> deliberations = new ArrayList<Deliberation>();
+		String page = register.download().replaceAll("\\r", "")
+				.replaceAll("\\n", "");
+		;
 		String pattern = "href='showdoc.aspx.*?N\\. \\d+[^h]*";
 		Pattern p = Pattern.compile(pattern);
 		Matcher matcher = p.matcher(page);
@@ -21,14 +24,6 @@ public class DeliberationParser {
 			deliberations.add(new Deliberation(matcher.group()));
 		}
 		return deliberations;
-	}
-
-	public int size() {
-		return deliberations.size();
-	}
-
-	public Deliberation get(int index) {
-		return deliberations.get(0);
 	}
 
 }
