@@ -1,4 +1,3 @@
-import java.util.List;
 
 public class Main {
 
@@ -6,10 +5,9 @@ public class Main {
 		String urlString = "http://www.comune.milano.it/albopretorio/AlboPretorioWeb/AlboPretorio.aspx?dtid=13060";
 		PretorianRegister pretorianRegister = new PretorianRegister(urlString);
 		DeliberationParser parser = new DeliberationParser(pretorianRegister);
+		DeliberationNotifier notifier = new DeliberationNotifier(parser);
 
-		List<Deliberation> deliberations = parser.parse();
-		for (Deliberation deliberation : deliberations) {
-			System.out.println(deliberation.toString());
-		}
+		notifier.run();
+
 	}
 }
