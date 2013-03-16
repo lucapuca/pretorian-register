@@ -11,20 +11,19 @@ public class DeliberationParserTest {
 	@Test
 	public void shouldParseDeliberations() throws Exception {
 		final String page = webPageContent();
-		PretorianRegister register = new PretorianRegister(
-				"http://www.example.lup") {
+		PretorianRegister register = new PretorianRegister("http://www.example.lup") {
 			@Override
 			public String download() throws IOException {
 				return page;
 			}
 		};
 
-		DeliberationParser deliberationParser = new DeliberationParser(register);
-		List<Deliberation> deliberations = deliberationParser.parse();
+		RegexpDeliberationParser deliberationParser = new RegexpDeliberationParser(register);
+		List<Entity> deliberations = deliberationParser.parse();
 
 		assertEquals(9, deliberations.size());
-		assertEquals("PARERE SUL PERMESSO DI COSTRUIRE IN VIA PERTICARI 23.",
-				deliberations.get(0).title());
+		Deliberation firstDeliberation = (Deliberation) deliberations.get(0);
+		assertEquals("PARERE SUL PERMESSO DI COSTRUIRE IN VIA PERTICARI 23.", firstDeliberation.title());
 	}
 
 	private String webPageContent() throws Exception {

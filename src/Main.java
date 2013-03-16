@@ -1,13 +1,13 @@
-
 public class Main {
 
 	public static void main(String[] args) throws Exception {
 		String urlString = "http://www.comune.milano.it/albopretorio/AlboPretorioWeb/AlboPretorio.aspx?dtid=13060";
 		PretorianRegister pretorianRegister = new PretorianRegister(urlString);
-		DeliberationParser parser = new DeliberationParser(pretorianRegister);
-		DeliberationNotifier notifier = new DeliberationNotifier(parser);
+		DeliberationParser parser = new RegexpDeliberationParser(pretorianRegister);
+		DeliberationRepository repository = new MongoDeliberationRepository();
+		DeliberationNotifier notifier = new MailDeliberationNotifier();
+		DeliberationMonitor monitor = new DeliberationMonitor(parser, repository, notifier);
 
-		notifier.run();
-
+		monitor.run();
 	}
 }
