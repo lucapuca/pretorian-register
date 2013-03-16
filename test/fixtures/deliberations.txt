@@ -1,0 +1,633 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	COMUNE DI MILANO - ALBO PRETORIO COMUNE DI MILANO
+</title><meta name="ROBOTS" content="FOLLOW,INDEX" /><link href="style/defautStyle.css" rel="stylesheet" type="text/css" /><link href="style/leftStyle.css" rel="stylesheet" type="text/css" /><link href="img/mi/Portal.ico" rel="Shortcut Icon" />
+    <script language="javascript" type="text/javascript" src="js/general.js"></script>
+    <script language="javascript" type="text/javascript">
+        function clearctl(id) {
+            document.getElementById(id).value = "";
+        }
+    </script>
+    <link rel="stylesheet" href="style/albopretorio.css" type="text/css"/>
+<link href="style/defautSize.css" rel="stylesheet" type="text/css" /><link href="style/defautColor.css" rel="stylesheet" type="text/css" /><link href="/albopretorio/AlboPretorioWeb/WebResource.axd?d=s2KremmHfITz0_3eU-sSPwYjRn3fb-IJUJEkNQhinlU6aHKkQl7vPmgeteBroWXVN3mjTPCoLFLKU_fv8hl7vLkMjhdkO_9YnAX9wGDqgCA8yqLQzC2tOY0IswwCksXE3Qxg4VFLwS7qpfJGTohyYbLxcf41&amp;t=634263045110000000" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form name="aspnetForm" method="post" action="AlboPretorio.aspx?dtid=13060" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_ToolkitScriptManager1_HiddenField" id="ctl00_ToolkitScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTM2MDg3MDUzNw9kFgJmD2QWAgIED2QWBAIJD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAISFiRmD2QWAmYPFQINbmF2MkNvbnRhaW5lcms8YSBocmVmPSJqYXZhc2NyaXB0OmdvVG8oOTA1MCkiIG9ubW91c2VvdmVyPSJ3aW5kb3cuc3RhdHVzPScnO3JldHVybiB0cnVlOyI+RGV0ZXJtaW5hemlvbmkgRGlyaWdlbnppYWxpPC9hPmQCAQ9kFgJmDxUCDW5hdjJDb250YWluZXJiPGEgaHJlZj0iamF2YXNjcmlwdDpnb1RvKDkwMzApIiBvbm1vdXNlb3Zlcj0id2luZG93LnN0YXR1cz0nJztyZXR1cm4gdHJ1ZTsiPkRlbGliZXJlIGRpIEdpdW50YTwvYT5kAgIPZBYCZg8VAg1uYXYyQ29udGFpbmVyZTxhIGhyZWY9ImphdmFzY3JpcHQ6Z29Ubyg5MDQwKSIgb25tb3VzZW92ZXI9IndpbmRvdy5zdGF0dXM9Jyc7cmV0dXJuIHRydWU7Ij5EZWxpYmVyZSBkaSBDb25zaWdsaW88L2E+ZAIDD2QWAmYPFQINbmF2MkNvbnRhaW5lcl48YSBocmVmPSJqYXZhc2NyaXB0OmdvVG8oOTA2MCkiIG9ubW91c2VvdmVyPSJ3aW5kb3cuc3RhdHVzPScnO3JldHVybiB0cnVlOyI+RG9jdW1lbnRpIHZhcmk8L2E+ZAIED2QWAmYPFQINbmF2MkNvbnRhaW5lcms8YSBocmVmPSJqYXZhc2NyaXB0OmdvVG8oOTAyMCkiIG9ubW91c2VvdmVyPSJ3aW5kb3cuc3RhdHVzPScnO3JldHVybiB0cnVlOyI+UHViYmxpY2F6aW9uaSBkaSBNYXRyaW1vbmlvPC9hPmQCBQ9kFgJmDxUCDW5hdjJDb250YWluZXIlPHNwYW4gPjxpPkRlbGliZXJlIGRpIFpvbmE8L2k+PC9zcGFuPmQCBg9kFgJmDxUCDW5hdjJDb250YWluZXJaPGEgaHJlZj0iamF2YXNjcmlwdDpnb1RvKDEyMDYwKSIgb25tb3VzZW92ZXI9IndpbmRvdy5zdGF0dXM9Jyc7cmV0dXJuIHRydWU7Ij4gLSBab25hIDE8L2E+ZAIHD2QWAmYPFQIPbmF2MkNvbnRhaW5lck9uWjxhIGhyZWY9ImphdmFzY3JpcHQ6Z29UbygxMzA2MCkiIG9ubW91c2VvdmVyPSJ3aW5kb3cuc3RhdHVzPScnO3JldHVybiB0cnVlOyI+IC0gWm9uYSAyPC9hPmQCCA9kFgJmDxUCDW5hdjJDb250YWluZXJaPGEgaHJlZj0iamF2YXNjcmlwdDpnb1RvKDE0MDYwKSIgb25tb3VzZW92ZXI9IndpbmRvdy5zdGF0dXM9Jyc7cmV0dXJuIHRydWU7Ij4gLSBab25hIDM8L2E+ZAIJD2QWAmYPFQINbmF2MkNvbnRhaW5lclo8YSBocmVmPSJqYXZhc2NyaXB0OmdvVG8oMTUwNjApIiBvbm1vdXNlb3Zlcj0id2luZG93LnN0YXR1cz0nJztyZXR1cm4gdHJ1ZTsiPiAtIFpvbmEgNDwvYT5kAgoPZBYCZg8VAg1uYXYyQ29udGFpbmVyWjxhIGhyZWY9ImphdmFzY3JpcHQ6Z29UbygxNjA2MCkiIG9ubW91c2VvdmVyPSJ3aW5kb3cuc3RhdHVzPScnO3JldHVybiB0cnVlOyI+IC0gWm9uYSA1PC9hPmQCCw9kFgJmDxUCDW5hdjJDb250YWluZXJaPGEgaHJlZj0iamF2YXNjcmlwdDpnb1RvKDE3MDYwKSIgb25tb3VzZW92ZXI9IndpbmRvdy5zdGF0dXM9Jyc7cmV0dXJuIHRydWU7Ij4gLSBab25hIDY8L2E+ZAIMD2QWAmYPFQINbmF2MkNvbnRhaW5lclo8YSBocmVmPSJqYXZhc2NyaXB0OmdvVG8oMTgwNjApIiBvbm1vdXNlb3Zlcj0id2luZG93LnN0YXR1cz0nJztyZXR1cm4gdHJ1ZTsiPiAtIFpvbmEgNzwvYT5kAg0PZBYCZg8VAg1uYXYyQ29udGFpbmVyWjxhIGhyZWY9ImphdmFzY3JpcHQ6Z29UbygxOTA2MCkiIG9ubW91c2VvdmVyPSJ3aW5kb3cuc3RhdHVzPScnO3JldHVybiB0cnVlOyI+IC0gWm9uYSA4PC9hPmQCDg9kFgJmDxUCDW5hdjJDb250YWluZXJaPGEgaHJlZj0iamF2YXNjcmlwdDpnb1RvKDIwMDYwKSIgb25tb3VzZW92ZXI9IndpbmRvdy5zdGF0dXM9Jyc7cmV0dXJuIHRydWU7Ij4gLSBab25hIDk8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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/albopretorio/AlboPretorioWeb/WebResource.axd?d=FeSM05iEGCqJR3kfMiyDozLRHCZLv9PYbK_2P7pnOIPxhQda91h5YbqimX53tlWpZBpHYffmJGLri2ciab2ZqfvsA8U1&amp;t=634946008557483785" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function goTo(id){if(id>0)window.location='AlboPretorio.aspx?dtid='+id;}var __cultureInfo = '{"name":"it-IT","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"€","NaNSymbol":"Non un numero reale","CurrencyNegativePattern":9,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-Infinito","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":2,"PositiveInfinitySymbol":"+Infinito","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135596800000)\/","MaxSupportedDateTime":"\/Date(253402297199999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"dddd d MMMM yyyy H.mm.ss","LongDatePattern":"dddd d MMMM yyyy","LongTimePattern":"H.mm.ss","MonthDayPattern":"dd MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"H.mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":".","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM yyyy","AbbreviatedDayNames":["dom","lun","mar","mer","gio","ven","sab"],"ShortestDayNames":["do","lu","ma","me","gi","ve","sa"],"DayNames":["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"],"AbbreviatedMonthNames":["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic",""],"MonthNames":["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre",""],"IsReadOnly":true,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic",""],"MonthGenitiveNames":["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre",""]}}';//]]>
+</script>
+
+<script src="/albopretorio/AlboPretorioWeb/ScriptResource.axd?d=9_KfoODQyT96JqkhiMFQEn7GuFlGPhopn1xUhcu8e7mNiSo5XfHtZl3uepKS-WJ_SXu3mK_44_eQ38JdDxS7ZIRxhPfU8_A88UVcK1yrwMAjnWbGvgICg_uXC7DXarwrqvcwIMMhhVrxzT2iyB7g6milHYVdV0TRV9jevCmTdwTSdqEQ0&amp;t=634215455966015843" type="text/javascript"></script>
+<script src="/albopretorio/AlboPretorioWeb/ScriptResource.axd?d=_cntF_wgFPY-ltmfnwBuVQf3aoY8abCzXDcNmtu-g5XizmEBrPf-L6Wk-jBuMjULg3969X1Xapqjjzp05Xiryluu2T4mh-xqCu8iD6g-JZQ4Uf4oMFMw4IbsMnBrcrsjURInhDLfvL-CIMiOGj93Sdyj7vmOf3OYI8_4ZwiT0XszE47g0&amp;t=634215455966015843" type="text/javascript"></script>
+<script src="/albopretorio/AlboPretorioWeb/AlboPretorio.aspx?_TSM_HiddenField_=ctl00_ToolkitScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d1.0.20229.20821%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3ait%3ac5c982cc-4942-4683-9b48-c2c58277700f%3ae2e86ef9%3aa9a7729d%3a9ea3f0e2%3a9e8e87e9%3a1df13a87%3a4c9865be%3aba594826%3a507fcf1b%3ac7a4182e%3a8ccd9c1b" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+null;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBwL+uYnFDAKOkrn2CAKLkrn2CAKMkrn2CAK33sGJAQLl97ftDQLm44yWBa2ExHmZRTBbPeskcx6GRZ6sTE9D" />
+</div>
+
+    <div id="wrapper">
+        <div id="testata">
+	        <div id="testatadx">		        
+			    <div id="blockdx">
+				    <ul>
+				    <li><a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/contentlibrary/Tools/Navigazione+persistente/Help/">Help</a> | </li>
+				    <li><a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/contentlibrary/Tools/Navigazione+persistente/Mappa/">Mappa</a> | </li>
+				    <li><a href="https://www.comune.milano.it/portale/wps/myportal/applicativocontattiredazione?wf=&amp;sa=home/Scrivi%20al%20Comune&amp;ct=&amp;pth=/contentlibrary/Filo+diretto/Filo+diretto/Scrivi+al+Comune/Scrivi_testo&amp;servizio=ContactCenter">Scrivi</a> | </li>
+				    <li>	    
+						    <a tabindex="7" class="toolbarLink" href="https://www.comune.milano.it/portale/wps/myportal/CDMHome">
+						    Log In
+						    </a>		
+				    </li>
+				    <li>&nbsp;</li>                        
+                        <li class="normal"><a id="ctl00_LinkButton1" title="visualizza il sito con testo normale" class="txtSize1Link" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LinkButton1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">A</a></li>
+                        <li class="big"><a id="ctl00_LinkButton2" title="visualizza il sito con testo grande" class="txtSize2Link" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LinkButton2&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">A</a></li>
+                        <li class="inverted"><a id="ctl00_LinkButton3" title="visualizza il sito con colori invertiti" class="txtSize3Link" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$LinkButton3&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">A</a></li>
+				                        
+				        <!--li class="normal"><a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/contentlibrary/Servizi%20on-line/Servizi%20on-line/Albo%20pretorio/&amp;styleSize=defautSize&amp;styleColor=defautColor&amp;siteArea=Servizi%20on-line&amp;searchtype=all" class="txtSize1Link" title="visualizza il sito con testo normale">A</a></li>
+				        <li class="big"><a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/contentlibrary/Servizi%20on-line/Servizi%20on-line/Albo%20pretorio/&amp;styleSize=bigSize&amp;styleColor=defautColor&amp;siteArea=Servizi%20on-line&amp;searchtype=all" class="txtSize2Link" title="visualizza il sito con testo grande">A</a></li>
+				        <li class="inverted"><a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/contentlibrary/Servizi%20on-line/Servizi%20on-line/Albo%20pretorio/&amp;styleSize=bigSize&amp;styleColor=invertedColor&amp;siteArea=Servizi%20on-line&amp;searchtype=all" class="txtSize3Link" title="visualizza il sito con colori invertiti">A</a></li-->
+				    </ul>
+			    </div>
+	        <!-- end banner -->		    
+		        <div id="ricerca">
+                    <div id="ctl00_pnlQuickSearch" style="text-align:right;">
+	                                
+                        <input name="ctl00$TextBox1" type="text" id="ctl00_TextBox1" class="ric" />
+                        <input type="image" name="ctl00$Button1" id="ctl00_Button1" class="search" src="img/mi/search.jpg" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" style="background-color:Transparent;border-width:0px;" />
+                    
+</div>
+                    
+		        </div>
+	        </div>
+        </div>
+        <br class="clear"/>
+        <div id="testatadown">
+	        <div id="menu">
+		        <a href="http://www.comune.milano.it/portale/wps/portal/CDMHome"> Home </a> . <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/ContentLibrary/ho+bisogno+di/ho+bisogno+di/">Informazioni</a> . <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/ContentLibrary/in+comune/in+comune/">In Comune</a> . <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/ContentLibrary/servizi+on-line/servizi+on-line/servizi+on+line+home+page/" class="bottomDownLink">Servizi on Line</a> . <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/ContentLibrary/per+saperne/per+saperne/">Per Saperne di Piu'</a> . <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/ContentLibrary/filo+diretto/filo+diretto/filo+diretto+hp/">Filo Diretto</a> . <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/ContentLibrary/giornale/giornale/">News</a> . <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/ContentLibrary/giornale/giornale/sala+stampa/">Sala stampa</a>
+	        </div>
+        </div>
+        <table id="tableContainer" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td class="vertical">                    
+                    <div class="nav2TopSpacerSmall">&nbsp;</div>
+                    <ul class="nav2Area">
+                        
+    
+            <li class="nav2Container">
+            <a href="javascript:goTo(9050)" onmouseover="window.status='';return true;">Determinazioni Dirigenziali</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(9030)" onmouseover="window.status='';return true;">Delibere di Giunta</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(9040)" onmouseover="window.status='';return true;">Delibere di Consiglio</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(9060)" onmouseover="window.status='';return true;">Documenti vari</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(9020)" onmouseover="window.status='';return true;">Pubblicazioni di Matrimonio</a>
+            </li>
+        
+            <li class="nav2Container">
+            <span ><i>Delibere di Zona</i></span>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(12060)" onmouseover="window.status='';return true;"> - Zona 1</a>
+            </li>
+        
+            <li class="nav2ContainerOn">
+            <a href="javascript:goTo(13060)" onmouseover="window.status='';return true;"> - Zona 2</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(14060)" onmouseover="window.status='';return true;"> - Zona 3</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(15060)" onmouseover="window.status='';return true;"> - Zona 4</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(16060)" onmouseover="window.status='';return true;"> - Zona 5</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(17060)" onmouseover="window.status='';return true;"> - Zona 6</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(18060)" onmouseover="window.status='';return true;"> - Zona 7</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(19060)" onmouseover="window.status='';return true;"> - Zona 8</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(20060)" onmouseover="window.status='';return true;"> - Zona 9</a>
+            </li>
+        
+            <li class="nav2Container">
+            <a href="javascript:goTo(9070)" onmouseover="window.status='';return true;"> - Articolo 60</a>
+            </li>
+        
+            <li class="nav2Container">
+            <span ><i></i></span>
+            </li>
+        
+            <li class="nav2Container adv_search">
+            <a href="javascript:goTo(99)" onmouseover="window.status='';return true;">Ricerca Avanzata...</a>
+            </li>
+        
+
+                    </ul>
+                    <div>
+                        <br/>                    
+                    </div>
+                </td>
+                    <td class="tdContent">
+                    <a name="wpsMainContent"></a>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                      
+                        <tr style="height: 100%;">
+                          <td valign="top">
+                            <table width="100%" cellspacing="0" cellpadding="0"
+                            border="0" align="center">
+                              
+                                <tr>
+                                  <td width="100%" valign="top">
+                                    <a name="7_AM5RPI420OTS302HKLTK9M3007"></a>
+                                    <div class="wpsPortletBody">
+                                      <!-- inizio contenuto -->
+                                      <table width="100%" cellspacing="0"
+                                      cellpadding="0">
+                                        
+                                          <tr>
+                                            <!-- Cella contenente -->
+                                            <td class="contentArea">
+							                    <div class="txtPath">	
+								                    <span id="page_grey"><a id="WebBreadCrumbTrail1_rpBreadCrumbTrail__ctl0_BreadCrumbItem" title="Home" href="http://www.comune.milano.it/portale/wps/portal/CDMHome">Home</a></span>		
+								                    <span id="page_grey_sep">></span>
+                                                    <span id="page_grey1"><a id="A1" title="Servizi on-line" href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/contentlibrary/Servizi+on-line/">Servizi on-line</a></span>		
+								                    <span id="page_grey_sep1">></span>					            
+								                    <span id="page_grey2"><a id="WebBreadCrumbTrail1_rpBreadCrumbTrail__ctl2_BreadCrumbItem"></a></span>		
+								                    <span id="page_black">Albo Pretorio</span>
+							                     </div>
+							                    <h1 class="titPage">Albo Pretorio</h1>                    
+							                    
+    <div id="ap_colonna_centrale">
+                <div class="ap_title" style="text-align: left"><span id="ctl00_mainIndexContent_lblTipoDocumentoSelezionato">Zona 2 - Elenco documenti</span></div>                                        
+                <div id="ctl00_mainIndexContent_pnlRisultati">
+	
+                    
+                                <table cellpadding="0" cellspacing="0" class="ap_docList">                            
+                                
+                                        <tr class="group">
+                                            <td class="group" colspan="6" width="100%">
+                                                12/03/2013&nbsp;
+                                            </td>                                         
+                                        </tr>
+                                        <tr class="title">
+                                            <td>
+                                                Titolo</td>
+                                            <td>
+                                                Settore</td>
+                                            <!--td>
+                                                Data</td-->
+                                            <td>
+                                                Numero e Data</td>
+											<td>
+                                                Periodo Esposizione</td>
+                                            <!--td>
+                                                Inizio esp.</td>
+                                            <td>
+                                                Fine esp.</td-->
+                                        </tr>
+                                        
+                                                <tr class='item0' 
+                                                    onmouseout='this.className=&#039;item0&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=51171' title="Visualizza documento">
+                                                        PARERE SUL PERMESSO DI COSTRUIRE IN VIA PERTICARI 23.</a>
+                                                    </td>
+                                                    <td class='0' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        05/03/2013
+                                                    </td-->
+                                                    <td class='0' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 28 169212/2013 <br> del 05/03/2013</td>
+                                                    <td class='0' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 12/03/2013 <br> al 27/03/2013
+                                                        </td>
+													<!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        12/03/2013
+                                                    </td>
+                                                    <td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        27/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                                <tr class='item1' 
+                                                    onmouseout='this.className=&#039;item1&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=51174' title="Visualizza documento">
+                                                        PARERE SULLA PROPOSTA DI DELIBERAZIONE CONSILIARE DI INIZIATIVA POPOLARE AVENTE OGGETTO: "ISTITUZIONE DEL REGISTRO DI RACCOLTA E CONSERVAZIONE DELLE DICHIARAZIONI ANTICIPATE DI TRATTAMENTO SANITARIO".</a>
+                                                    </td>
+                                                    <td class='1' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        05/03/2013
+                                                    </td-->
+                                                    <td class='1' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 29 169247/2013 <br> del 05/03/2013</td>
+                                                    <td class='1' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 12/03/2013 <br> al 27/03/2013
+                                                        </td>
+													<!--td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        12/03/2013
+                                                    </td>
+                                                    <td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        27/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                                <tr class='item0' 
+                                                    onmouseout='this.className=&#039;item0&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=51178' title="Visualizza documento">
+                                                        RICHIESTA DI PARERE PER L'INSTALLAZIONE E L'ESERCIZIO DELL'ATTRAZIONE DELLO SPETTACOLO VIAGGIANTE DENOMINATA "TRENINO LILLIPUZIANO SU BINARIO" NELL'AREA SITA IN VIA M. GIOIA CIV. 193 PER IL PERIODO DAL 3/4/13 AL 3/6/13 COMPRENSIVO DI PROROGA, MONTAGGIO E SMONTAGGIO DELLE STRUTTURE.</a>
+                                                    </td>
+                                                    <td class='0' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        05/03/2013
+                                                    </td-->
+                                                    <td class='0' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 30 169309/2013 <br> del 05/03/2013</td>
+                                                    <td class='0' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 12/03/2013 <br> al 27/03/2013
+                                                        </td>
+													<!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        12/03/2013
+                                                    </td>
+                                                    <td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        27/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                                <tr class='item1' 
+                                                    onmouseout='this.className=&#039;item1&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=51180' title="Visualizza documento">
+                                                        PARERE SULLA PROPOSTA DI DELIBERAZIONE CONSILIARE DI INIZIATIVA POPOLARE AVENTE OGGETTO: "ISTITUZIONE DEL REGISTRO DELLE DICHIARAZIONI ANTICIPATE DI VOLONTA' SUI TRATTAMENTI SANITARI. APPROVAZIONE REGOLAMENTO".</a>
+                                                    </td>
+                                                    <td class='1' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        05/03/2013
+                                                    </td-->
+                                                    <td class='1' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 31 169367/2013 <br> del 05/03/2013</td>
+                                                    <td class='1' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 12/03/2013 <br> al 27/03/2013
+                                                        </td>
+													<!--td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        12/03/2013
+                                                    </td>
+                                                    <td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        27/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                        <tr class="groupsep">
+                                            <td colspan="3">
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr class="group">
+                                            <td class="group" colspan="6" width="100%">
+                                                08/03/2013&nbsp;
+                                            </td>                                         
+                                        </tr>
+                                        <tr class="title">
+                                            <td>
+                                                Titolo</td>
+                                            <td>
+                                                Settore</td>
+                                            <!--td>
+                                                Data</td-->
+                                            <td>
+                                                Numero e Data</td>
+											<td>
+                                                Periodo Esposizione</td>
+                                            <!--td>
+                                                Inizio esp.</td>
+                                            <td>
+                                                Fine esp.</td-->
+                                        </tr>
+                                        
+                                                <tr class='item0' 
+                                                    onmouseout='this.className=&#039;item0&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=50942' title="Visualizza documento">
+                                                        PIANO URBANO DEI PARCHEGGI: PROPOSTA DI STRALCIO LOCALIZZAZIONE FERRANTE APORTI/VARANINI.</a>
+                                                    </td>
+                                                    <td class='0' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        28/02/2013
+                                                    </td-->
+                                                    <td class='0' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 23 166291/2013 <br> del 28/02/2013</td>
+                                                    <td class='0' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 08/03/2013 <br> al 23/03/2013
+                                                        </td>
+													<!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        08/03/2013
+                                                    </td>
+                                                    <td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        23/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                                <tr class='item1' 
+                                                    onmouseout='this.className=&#039;item1&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=50944' title="Visualizza documento">
+                                                        PARERE SULLA RICHIESTA DI LOCAZIONE DELL'AREA DI PROPRIETA' COMUNALE SITA IN MILANO IN VIA COSTA 21 E 27, AD USO "PARCHEGGIO AUTO".</a>
+                                                    </td>
+                                                    <td class='1' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        28/02/2013
+                                                    </td-->
+                                                    <td class='1' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 24 166322/2013 <br> del 28/02/2013</td>
+                                                    <td class='1' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 08/03/2013 <br> al 23/03/2013
+                                                        </td>
+													<!--td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        08/03/2013
+                                                    </td>
+                                                    <td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        23/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                                <tr class='item0' 
+                                                    onmouseout='this.className=&#039;item0&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=50945' title="Visualizza documento">
+                                                        INIZIATIVA MAAP: "OLTRE VIA PADOVA - SGUARDI SU ESPERIENZE DI RIGENERAZIONE URBANA A TORINO, GENOVA E MILANO".</a>
+                                                    </td>
+                                                    <td class='0' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        28/02/2013
+                                                    </td-->
+                                                    <td class='0' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 25 166344/2013 <br> del 28/02/2013</td>
+                                                    <td class='0' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 08/03/2013 <br> al 23/03/2013
+                                                        </td>
+													<!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        08/03/2013
+                                                    </td>
+                                                    <td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        23/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                                <tr class='item1' 
+                                                    onmouseout='this.className=&#039;item1&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=50946' title="Visualizza documento">
+                                                        PARERE SULLA LOCAZIONE DI AREA DI PROPRIETA' COMUNALE SITA IN MILANO IN VIA ISOCRATE AD USO "ORTO".</a>
+                                                    </td>
+                                                    <td class='1' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        28/02/2013
+                                                    </td-->
+                                                    <td class='1' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 26 166357/2013 <br> del 28/02/2013</td>
+                                                    <td class='1' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 08/03/2013 <br> al 23/03/2013
+                                                        </td>
+													<!--td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        08/03/2013
+                                                    </td>
+                                                    <td class='1' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        23/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                        <tr class="groupsep">
+                                            <td colspan="3">
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr class="group">
+                                            <td class="group" colspan="6" width="100%">
+                                                06/03/2013&nbsp;
+                                            </td>                                         
+                                        </tr>
+                                        <tr class="title">
+                                            <td>
+                                                Titolo</td>
+                                            <td>
+                                                Settore</td>
+                                            <!--td>
+                                                Data</td-->
+                                            <td>
+                                                Numero e Data</td>
+											<td>
+                                                Periodo Esposizione</td>
+                                            <!--td>
+                                                Inizio esp.</td>
+                                            <td>
+                                                Fine esp.</td-->
+                                        </tr>
+                                        
+                                                <tr class='item0' 
+                                                    onmouseout='this.className=&#039;item0&#039;' 
+                                                    onmouseover="this.className='hiitem'">
+                                                    <td class="link-item" 
+                                                        style="white-space: normal; width: 100%; padding-left: 5px;">
+                                                        <a href='showdoc.aspx?procid=50740' title="Visualizza documento">
+                                                        Parere sull'aggiornamento del Piano Generale del Traffico Urbano.</a>
+                                                    </td>
+                                                    <td class='0' title="S ZONA 2" style="width: 200px; padding-left: 5px; white-space:nowrap">
+                                                        S ZONA 2
+                                                    </td>
+                                                    <!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        28/02/2013
+                                                    </td-->
+                                                    <td class='0' style="width: 80px; padding-left: 5px; text-align:right">
+                                                        N. 27 166374/2013 <br> del 28/02/2013</td>
+                                                    <td class='0' style="width: 70px; padding-left: 5px; text-align:right">
+                                                           Dal 06/03/2013 <br> al 21/03/2013
+                                                        </td>
+													<!--td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        06/03/2013
+                                                    </td>
+                                                    <td class='0' style="width: 75px; padding-left: 5px; text-align:right">
+                                                        21/03/2013
+                                                    </td-->
+                                                </tr>
+                                            
+                                        <tr class="groupsep">
+                                            <td colspan="3">
+                                            </td>
+                                        </tr>
+                                    
+                            </table>
+                            
+                                                    
+                
+</div>
+                
+</div>
+
+
+
+
+
+
+                                                                                                                     
+                                            </td>
+                                            <!--td class="relatedArea">
+	                                            &nbsp;<br/>&nbsp;	                                            
+	                                            <img width="185" height="1" alt="" src="img/mi/traspDot.gif"/>
+                                            </td--> 
+                                          </tr>
+                                        
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              
+                            </table>
+                          </td>
+                        </tr>
+                      
+                    </table>
+                </td>                    
+                </tr>
+                <tr>                
+                    <td class="footerSx">&nbsp;</td>
+                    <td class="footerCenter">
+                    <table width="100%" cellspacing="0" cellpadding="0" class="footerCenter">
+	                    <tbody>
+		                    <tr>
+			                    <td class="footerTableToolbarSx">
+				                    <!--  footer -->
+				                    <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/contentlibrary/Tools/Navigazione+persistente/Note+legali/">Note legali e privacy</a> | <a href="http://www.comune.milano.it/portale/wps/portal/CDM?WCM_GLOBAL_CONTEXT=/wps/wcm/connect/contentlibrary/Tools/Navigazione+persistente/Credits/">Credits</a>
+			                    </td>
+			                    <td class="footerTableToolbarDx"><a href="#top">inizio pagina</a></td>
+		                    </tr>
+	                    </tbody>
+                    </table>
+                </td>                
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ToolkitScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+
+    <input type="hidden" name="ctl00$_ClientState" id="ctl00__ClientState" />
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00__ClientState","WatermarkCssClass":"ric","WatermarkText":"Cerca","id":"ctl00_ctl06"}, null, null, $get("ctl00_TextBox1"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
