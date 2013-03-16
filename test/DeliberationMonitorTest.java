@@ -27,6 +27,7 @@ public class DeliberationMonitorTest {
 				oneOf(repository).exists(deliberation);
 				will(returnValue(false));
 
+				oneOf(repository).save(deliberation);
 				oneOf(sender).send(deliberation);
 			}
 		});
@@ -45,6 +46,8 @@ public class DeliberationMonitorTest {
 
 				oneOf(repository).exists(deliberation);
 				will(returnValue(true));
+
+				never(repository).save(deliberation);
 
 				never(sender).send(deliberation);
 			}

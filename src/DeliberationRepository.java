@@ -1,5 +1,7 @@
 public interface DeliberationRepository {
 
-	boolean exists(Entity deliberation);
+	boolean exists(Deliberation deliberation) throws Exception;
+
+	void save(Deliberation deliberation) throws Exception;
 
 }

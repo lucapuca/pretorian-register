@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.List;
 
 public class DeliberationMonitor {
@@ -13,13 +12,14 @@ public class DeliberationMonitor {
 		this.sender = sender;
 	}
 
-	public void run() throws IOException {
+	public void run() throws Exception {
 		List<Entity> deliberations = parser.parse();
-		for (Entity deliberation : deliberations) {
+		for (Entity deliberationEntity : deliberations) {
+			Deliberation deliberation = (Deliberation) deliberationEntity;
 			if (!repository.exists(deliberation)) {
+				repository.save(deliberation);
 				sender.send((Deliberation) deliberation);
 			}
-			System.out.println(deliberation.toString());
 		}
 	}
 }
