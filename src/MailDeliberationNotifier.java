@@ -18,6 +18,7 @@ public class MailDeliberationNotifier implements DeliberationNotifier {
 
 		final String username = properties.getProperty("mail.user");
 		final String password = properties.getProperty("mail.password");
+		final String destination = properties.getProperty("mail.destination");
 
 		Properties mailProperties = new Properties();
 		mailProperties.put("mail.smtp.auth", "true");
@@ -35,7 +36,7 @@ public class MailDeliberationNotifier implements DeliberationNotifier {
 
 		MimeMessage msg = new MimeMessage(session);
 		msg.setFrom();
-		msg.setRecipients(Message.RecipientType.TO, "lucapuca@gmail.com");
+		msg.setRecipients(Message.RecipientType.TO, destination);
 		msg.setSubject("Nuova delibera dall'albo pretorio: " + deliberation.id());
 		msg.setSentDate(new Date());
 		msg.setText(deliberation.title() + " - " + deliberation.link());

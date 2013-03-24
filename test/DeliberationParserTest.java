@@ -1,5 +1,6 @@
 import static org.junit.Assert.assertEquals;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
@@ -7,6 +8,7 @@ import java.util.List;
 import org.junit.Test;
 
 public class DeliberationParserTest {
+	private final String fixture = "test/fixtures/deliberations.txt";
 
 	@Test
 	public void shouldParseDeliberations() throws Exception {
@@ -26,8 +28,20 @@ public class DeliberationParserTest {
 		assertEquals("PARERE SUL PERMESSO DI COSTRUIRE IN VIA PERTICARI 23.", firstDeliberation.title());
 	}
 
+	@Test
+	public void shouldParseDeliberationsByJSoup() throws Exception {
+
+		JSoupDeliberationParser deliberationParser = 
+				new JSoupDeliberationParser(new File(this.fixture));
+		List<Entity> deliberations = deliberationParser.parse();
+
+		assertEquals(9, deliberations.size());
+		Deliberation firstDeliberation = (Deliberation) deliberations.get(0);
+		assertEquals("PARERE SUL PERMESSO DI COSTRUIRE IN VIA PERTICARI 23.", firstDeliberation.title());
+	}
+
 	private String webPageContent() throws Exception {
-		return readFile("test/fixtures/deliberations.txt");
+		return readFile(this.fixture);
 	}
 
 	private String readFile(String fileName) throws Exception {
