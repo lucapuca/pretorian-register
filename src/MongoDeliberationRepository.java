@@ -33,7 +33,8 @@ public class MongoDeliberationRepository implements DeliberationRepository {
 		DBCollection deliberations = db.getCollection("deliberations");
 
 		BasicDBObject mongoDeliberation = new BasicDBObject("id", deliberation.id()).append("title",
-		        deliberation.title()).append("link", deliberation.link());
+		        deliberation.title()).append("link", deliberation.link()).
+		        append("sector", deliberation.sector()).append("year", deliberation.year());
 
 		deliberations.insert(mongoDeliberation);
 	}

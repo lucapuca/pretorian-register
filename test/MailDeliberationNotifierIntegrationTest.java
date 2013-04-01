@@ -21,7 +21,7 @@ public class MailDeliberationNotifierIntegrationTest {
 				return "title";
 			}
 		};
-		MailDeliberationNotifier notifier = new MailDeliberationNotifier();
+		MailDeliberationNotifier notifier = MailDeliberationNotifier.getNotifier("Dest");
 		notifier.send(deliberation);
 	}
 }

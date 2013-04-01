@@ -3,8 +3,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.management.RuntimeErrorException;
-
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -15,12 +14,19 @@ public class JSoupDeliberationParser implements DeliberationParser {
 
 	private String url;
 	private File file;
+	private int timeout;
+	public static final int def_timeout = 10000;
 	
-	public JSoupDeliberationParser(String url){
+	public JSoupDeliberationParser(String url, int timeout){
 		this.url = url;
 		this.file = null;
+		this.timeout = timeout;
 	}
-
+	public JSoupDeliberationParser(String url){
+		this(url,def_timeout);
+		this.file = null;
+	}
+	
 	public JSoupDeliberationParser(File file){
 		this.url = null;
 		this.file = file;
@@ -32,7 +38,9 @@ public class JSoupDeliberationParser implements DeliberationParser {
 		try {
 			Document doc = null;
 			if(this.url != null){
-				doc = Jsoup.connect(this.url).get();
+				Connection con = Jsoup.connect(this.url);
+				con.timeout(timeout);
+				doc = con.get();
 			}else if (this.file != null){ 
 				doc = Jsoup.parse(this.file,null);
 			}else{

@@ -32,7 +32,7 @@ public class DeliberationMonitorTest {
 			}
 		});
 
-		DeliberationMonitor monitor = new DeliberationMonitor(parser, repository, sender);
+		DeliberationMonitor monitor = new DeliberationMonitor("pippo", "pluto", parser, repository, sender);
 		monitor.run();
 		context.assertIsSatisfied();
 	}
@@ -53,7 +53,7 @@ public class DeliberationMonitorTest {
 			}
 		});
 
-		DeliberationMonitor monitor = new DeliberationMonitor(parser, repository, sender);
+		DeliberationMonitor monitor = new DeliberationMonitor("pippo", "pluto", parser, repository, sender);
 		monitor.run();
 		context.assertIsSatisfied();
 	}

@@ -4,47 +4,59 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class Deliberation implements Entity {
-	private static final Logger logger = Logger.getLogger("Deliberation");
+	private static final Logger logger = Logger.getLogger(Deliberation.class.getName());
 	private static final String BASE_URL = "http://www.comune.milano.it/albopretorio/AlboPretorioWeb/";
 	private String title;
 	private String link;
 	private String id;
+	private String sector;
 	private String year;
 
 	public Deliberation() {
 	}
 
 	public Deliberation(String deliberation) {
-		this.year = "2013";
-		this.title = extractBetween(deliberation, ">", "</a>");
-		this.link = BASE_URL + extractBetween(deliberation, "'", "' title");
+		year = "2013";
+		title = extractBetween(deliberation, ">", "</a>");
+		link = BASE_URL + extractBetween(deliberation, "'", "' title");
 		String id = "N"
-				+ extractBetween(deliberation, "N. ", this.year + "</td>")
-				+ this.year;
-		this.id = id.replace("<br> ", "");
-		this.fix_year();
-		this.logEntry();
+				+ extractBetween(deliberation, "N. ", year + "</td>")
+				+ year;
+		sector = "Not Implemented";
+		id = id.replace("<br> ", "");
+		fix_year();
+		logEntry();
 	}
 
 	public Deliberation(Element row){
-		this.title = row.select("a[title=Visualizza Documento]").first().text().trim();
-		this.link = BASE_URL + row.select("a[title=Visualizza Documento]").first().attr("href");
+		title = row.select("a[title=Visualizza Documento]").first().text().trim();
+		link = BASE_URL + row.select("a[title=Visualizza Documento]").first().attr("href");
 		Elements infos = row.select("td");
-		String z = infos.get(1).text().trim();
-		this.id = infos.get(2).text().trim();
-		this.fix_year();
-		this.logEntry();
+		sector = infos.get(1).text().trim();
+		id = infos.get(2).text().trim();
+		fix_year();
+		logEntry();
 	}
 	
 	private void fix_year(){
-		this.year = this.id.split(" ")[2].split("/")[1];
+		String els[] = id.split(" ");
+		if (els[2].equals("del")){
+			//N. 18927/2013 del 20/02/2013
+			year = els[1].split("/")[1];
+		}else if (els[3].equals("del")){
+			//N. 45 210121/2013 del 19/02/2013
+			year = els[2].split("/")[1];
+		}else{
+			logger.warning("Cannot recognize year in id form \"" + id + "\"");
+		}
 	}
 	
 	private void logEntry(){
-		logger.info("Title : " + this.title);
-		logger.info("link : " + this.link);
-		logger.info("id : " + this.id);
-		logger.info("year : " + this.year);
+		logger.info("Title : " + title);
+		logger.info("link : " + link);
+		logger.info("settore : " + sector);
+		logger.info("id : " + id);
+		logger.info("year : " + year);
 	}
 
 	private String extractBetween(String deliberation, String start, String end) {
@@ -62,6 +74,14 @@ public class Deliberation implements Entity {
 
 	public String id() {
 		return id;
+	}
+
+	public String year() {
+		return year;
+	}
+	
+	public String sector() {
+		return sector;
 	}
 
 	@Override
